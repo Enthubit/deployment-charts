@@ -3,7 +3,7 @@ entries:
   cr-game-logic:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-18T10:59:50.145540274Z"
+    created: "2025-05-18T12:22:21.950145151Z"
     description: A Helm chart for Kubernetes
     digest: e05dc6b789bfd9cb5cabab65d3faee04512ff84796757638a63cec121ad040d9
     name: cr-game-logic
@@ -13,7 +13,7 @@ entries:
     version: 2.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-18T10:59:50.145344427Z"
+    created: "2025-05-18T12:22:21.949938031Z"
     description: A Helm chart for Kubernetes
     digest: 2b2652cb75ab51548626da45021e714c7e5e8285dcee6298a31349325bd2b884
     name: cr-game-logic
@@ -21,4 +21,15 @@ entries:
     urls:
     - cr-game-logic-0.1.1.tgz
     version: 0.1.1
-generated: "2025-05-18T10:59:50.144998438Z"
+  cr-matchmaker:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-05-18T12:22:21.950334747Z"
+    description: A Helm chart for Kubernetes
+    digest: 7a10df90cac502cee63ecbc433011a1b61a8cfa4c433e3884b122195e9c757b6
+    name: cr-matchmaker
+    type: application
+    urls:
+    - cr-matchmaker-2.0.2.tgz
+    version: 2.0.2
+generated: "2025-05-18T12:22:21.949608863Z"
