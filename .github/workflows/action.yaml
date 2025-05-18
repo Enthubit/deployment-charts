@@ -7,7 +7,8 @@ on:
 
 jobs:
   release:
-    if: env.SKIP_THIS_JOB != 'true'
+     if: "!contains(github.event.head_commit.message, '[skip ci]')" 
+  
     # depending on default permission settings for your org (contents being read-only or read-write for workloads), you will have to add permissions
     # see: https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token
     permissions:
@@ -34,8 +35,6 @@ jobs:
           helm repo index ./chart-repo
 
       - name: git-commit and push
-        env:
-          SKIP_THIS_JOB: true
         run: |
           git config user.name "AutoBot In Action"
           git config user.email "autobot@example.com"
