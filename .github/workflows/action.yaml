@@ -32,7 +32,7 @@ jobs:
       - name: helm-package
         id: helm-package
         run: |
-          helm repo index ./chart-repo
+          helm repo index .
 
       - name: git-commit and push
         run: |
