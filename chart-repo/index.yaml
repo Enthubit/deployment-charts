@@ -3,7 +3,7 @@ entries:
   cr-game-logic:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-18T07:58:44.743673258Z"
+    created: "2025-05-18T08:04:19.001924609Z"
     description: A Helm chart for Kubernetes
     digest: 4189708f9a4c99f1fba85acc0de1a9db96cd5deb55aa25e777e74169709005f7
     name: cr-game-logic
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-05-18T07:58:44.743462964Z"
+    created: "2025-05-18T08:04:19.001741186Z"
     description: A Helm chart for Kubernetes
     digest: eff3622a5d36ecd942006dab6fe989502a7535f08446935298d3f336d216de84
     name: cr-game-logic
@@ -21,4 +21,4 @@ entries:
     urls:
     - cr-game-logic-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-18T07:58:44.743168642Z"
+generated: "2025-05-18T08:04:19.001424855Z"
