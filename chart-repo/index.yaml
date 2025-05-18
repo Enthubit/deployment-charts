@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cr-game-logic:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-05-18T07:56:33.357814482Z"
+    description: A Helm chart for Kubernetes
+    digest: eff3622a5d36ecd942006dab6fe989502a7535f08446935298d3f336d216de84
+    name: cr-game-logic
+    type: application
+    urls:
+    - cr-game-logic-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-05-18T07:56:33.357452612Z"
