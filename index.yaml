@@ -3,7 +3,7 @@ entries:
   cr-game-logic:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-13T19:53:54.803318515Z"
+    created: "2025-10-13T20:15:29.479288658Z"
     description: A Helm chart for Kubernetes
     digest: 7d8a64a6cee13433edfd9950b984e4985192bd1778655b485546c38d0e9f3383
     name: cr-game-logic
@@ -13,7 +13,7 @@ entries:
     version: 2.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-13T19:53:54.803112368Z"
+    created: "2025-10-13T20:15:29.479097009Z"
     description: A Helm chart for Kubernetes
     digest: 2b2652cb75ab51548626da45021e714c7e5e8285dcee6298a31349325bd2b884
     name: cr-game-logic
@@ -24,7 +24,7 @@ entries:
   cr-matchmaker:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-10-13T19:53:54.803505365Z"
+    created: "2025-10-13T20:15:29.479510915Z"
     description: A Helm chart for Kubernetes
     digest: 5ce2d0f499013807f7bbcd0a7877087be91ad68deb254bcd64c9574b135a103b
     name: cr-matchmaker
@@ -35,7 +35,7 @@ entries:
   cr-server:
   - apiVersion: v2
     appVersion: v3.2.0
-    created: "2025-10-13T19:53:54.803728834Z"
+    created: "2025-10-13T20:15:29.479729464Z"
     description: A Helm chart for Kubernetes
     digest: 5c67c868868f846ff80ccaf2b3b8e56a651eb83ab0666fae7ef6b1011b1401be
     name: cr-server
@@ -46,7 +46,17 @@ entries:
   cr-user-management:
   - apiVersion: v2
     appVersion: 3.0.1
-    created: "2025-10-13T19:53:54.803903733Z"
+    created: "2025-10-13T20:15:29.480092925Z"
+    description: A Helm chart for Kubernetes
+    digest: f2f64e0eb164b34a82a1afc8496d857401ac72660fcf227e51eb9626bedaf356
+    name: cr-user-management
+    type: application
+    urls:
+    - cr-user-management-3.0.1.tgz
+    version: 3.0.1
+  - apiVersion: v2
+    appVersion: 3.0.1
+    created: "2025-10-13T20:15:29.479907036Z"
     description: A Helm chart for Kubernetes
     digest: 95016ca89d56931b587f6da9d6a48f16ee992c1f5b8ba4a5835ff79e7e6f5109
     name: cr-user-management
@@ -54,4 +64,4 @@ entries:
     urls:
     - cr-user-management-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-13T19:53:54.802807817Z"
+generated: "2025-10-13T20:15:29.478776048Z"
