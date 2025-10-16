@@ -33,7 +33,6 @@ jobs:
         id: helm-package
         run: |
           helm repo index .
-          helm repo list >> README.md
 
       - name: git-commit and push
         run: |
